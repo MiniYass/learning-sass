@@ -1,19 +1,24 @@
 $coulTxt:white;
+$cen:center;
 
 div{
-
+    text-align: $cen;
     img{
+        
         display: inline;
         padding: 20px;
-        width: 10% ;
+        width: 10em;
     }
 }
 
+button{
+    text-align: $cen;
+
+}
 
 .BtnBl{
-    color: white;
     background-color: rgb(0, 4, 253);
-    text-align: center;
+    color: white;
     padding: 15px;
     border-radius: 8px;
     border: 2px solid white;
@@ -22,7 +27,7 @@ div{
 .btnJ{
     color: white;
     background-color: rgb(253, 173, 0);
-    text-align: center;
+    
     padding: 15px;
     border-radius: 8px;
     border: 2px solid white;
@@ -43,28 +48,31 @@ nav{
     }
 }
 
-body{
-    text-align: center;
+html{
     font-family: 'Open Sans', sans-serif;
 }
+
 header{
+    text-align: $cen;
     background-color: rgb(26, 160, 238);
     width:100%;
     height: 450px;
 }
 
 p{
+    text-align: $cen;
     color:$coulTxt;
     background-color: rgb(26, 160, 238) ;
     text-align: left;
     float: left;
     margin: 0px;
-    width: 50%;
+    width: (100/2)*1%;
     height: 200px;
     font-size:24px;
 }
 
 h1{
+    text-align: $cen;
     width:100%;
     padding:0px; 
     margin:20px; 
@@ -72,7 +80,7 @@ h1{
 }
 
 h2{
-    text-align: center;
+    text-align: $cen;
     width:100%;
     background-color: white;
     text-decoration-color:black;
@@ -82,7 +90,7 @@ h2{
 h3{
 
     padding-top: 435px;
-    text-align: center;
+    text-align: $cen;
     font-size: 30px;
     color: grey;
     background-color: white;
