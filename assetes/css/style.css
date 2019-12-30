@@ -1,0 +1,112 @@
+html {
+  font-family: 'Open Sans', sans-serif; }
+
+li {
+  color: white;
+  display: inline;
+  padding: 3px; }
+
+p {
+  top: 20%;
+  font-size: 24px;
+  width: 50%;
+  height: 200px;
+  background-color: #1aa0ee;
+  color: white;
+  float: left;
+  margin: 0px; }
+
+footer {
+  width: 100%;
+  background-color: black;
+  height: 20px; }
+
+nav {
+  width: 100%;
+  background-color: #363636;
+  height: 40px; }
+
+#inno {
+  /*suite de logo bas du site*/
+  padding-top: 435px;
+  text-align: center;
+  font-size: 30px;
+  color: grey;
+  background-color: white; }
+
+#Login {
+  position: absolute;
+  right: 5%; }
+
+header {
+  background-color: #1aa0ee;
+  width: 100%;
+  height: 350px; }
+
+h1 {
+  position: relative;
+  top: -70px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 20px; }
+
+h2 {
+  height: 50px;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  text-decoration-color: black;
+  margin: 0%; }
+
+#Get {
+  width: 8%;
+  position: relative;
+  /*PERSONNAGE LOGO*/
+  left: 85px; }
+
+#Log {
+  display: inline;
+  padding: 20px;
+  width: 10%; }
+
+#divlog {
+  background-color: rgba(179, 176, 176, 0.445);
+  width: 100%; }
+
+#liF {
+  border: 1px dotted white;
+  /* liste footer */ }
+
+/*BOUTTON HEADER*/
+.Snow {
+  color: white;
+  left: 44%;
+  top: -50px;
+  padding: 15px;
+  position: relative;
+  background-color: #fdad00;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid white; }
+
+/*BOUTTONS DU BAS*/
+.btn {
+  margin-left: 40%;
+  display: inline; }
+
+.btnB {
+  color: white;
+  background-color: #0004fd;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid white; }
+
+.btnJ {
+  color: white;
+  background-color: #fdad00;
+  text-align: center;
+  padding: 15px; }
+
+/*# sourceMappingURL=style.css.map */
