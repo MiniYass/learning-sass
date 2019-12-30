@@ -1,15 +1,19 @@
 div {
   text-align: center;
+  background-color: lightgray;
+  height: 150px;
 }
 
 div img {
   display: inline;
   padding: 20px;
-  width: 10em;
+  width: 8em;
 }
 
-button {
+div button {
+  background-color: white;
   text-align: center;
+  margin-top: 180px;
 }
 
 .BtnBl {
@@ -69,6 +73,7 @@ p {
 }
 
 h1 {
+  color: white;
   text-align: center;
   width: 100%;
   padding: 0px;
@@ -93,6 +98,7 @@ h3 {
 }
 
 footer {
+  margin-top: 150px;
   width: 100%;
   background-color: black;
   height: 20px;

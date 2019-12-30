@@ -1,20 +1,27 @@
 $coulTxt:white;
 $cen:center;
 
+
 div{
     text-align: $cen;
+    background-color: lightgray;
+    height: 150px;
     img{
         
         display: inline;
         padding: 20px;
-        width: 10em;
+        width: 8em;
+    }
+
+    button{
+        background-color: $coulTxt;
+        text-align: $cen;
+        margin-top: 180px;
+    
     }
 }
 
-button{
-    text-align: $cen;
 
-}
 
 .BtnBl{
     background-color: rgb(0, 4, 253);
@@ -25,7 +32,7 @@ button{
 }
 
 .btnJ{
-    color: white;
+    color: $coulTxt;
     background-color: rgb(253, 173, 0);
     
     padding: 15px;
@@ -38,7 +45,7 @@ nav{
     background-color:#363636;
     height: 40px;
     li{
-        color: white;
+        color: $coulTxt;
         display:inline;
         padding:3px;
         &:nth-child(8){
@@ -72,35 +79,35 @@ p{
 }
 
 h1{
+    color:$coulTxt;
     text-align: $cen;
     width:100%;
     padding:0px; 
     margin:20px; 
-    
 }
 
 h2{
     text-align: $cen;
     width:100%;
-    background-color: white;
+    background-color: $coulTxt;
     text-decoration-color:black;
     height: 50px;
 }
 
 h3{
-
     padding-top: 435px;
     text-align: $cen;
     font-size: 30px;
     color: grey;
-    background-color: white;
+    background-color: $coulTxt;
 }
 footer{
+    margin-top: 150px;
     width: 100%;
     background-color: black;
     height: 20px;  
     li{
-        color:white;
+        color:$coulTxt;
         display:inline;
         border: 1px dotted white ;
         margin:5px;
